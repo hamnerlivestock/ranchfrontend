@@ -15,26 +15,7 @@
         opacity: 96%;
       }
   
-      /* // .cards__container { */
-      /* //   display: flex; */
-      /* //   flex-flow: column; */
-      /* //   align-items: center; */
-      /* //   max-width: 1120px; */
   
-      /* //   margin: 0 auto; */
-      /* // } */
-      /* Set rules to fill background */
-      /* // min-height: 100%;
-      // min-width: 1024px;
-  
-      /* Set up proportionate scaling */
-      /* // width: 100%;
-      // height: auto; */
-  
-      /* Set up positioning */
-      /* // position: fixed; */
-  
-      /* // left: 0; */ */
       .cards__wrapper {
         position: relative;
         margin: 50px 0 45px;
