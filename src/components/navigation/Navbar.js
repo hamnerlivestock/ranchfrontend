@@ -1,28 +1,31 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Logo from "../../static/images/logo2.png";
 import "../../styles/navigation/navbar.css";
 export default function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container">
+        
+          <Link className="logo-wrapper" to="/home">
+            <img src={Logo} alt="logo" height={"68px"} />
+          </Link>
 
-
-    {/* <a href="/" className="site-title"> Site Name </a> */}
-          <ul>
-            <li className="nav-item">
+          <div className="navbar-container">
+          
+            <div className="nav-item">
               <Link
               to="/about_us"
               className="nav-links"
               >About Us
               </Link>
               <Link
-              to="/home"
+              to="/meat"
               className="nav-links"
-              >Home
+              >Meat
               </Link>
-          </li>
-        </ul>
+          </div>
+        
       </div>
     </nav>
   </>
