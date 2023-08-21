@@ -3,7 +3,7 @@ import {Route, Routes, Link} from 'react-router-dom'
 // import Navbar from "./components/navigation/Navbar";
 import { AboutUs} from "./components/pages/about/AboutUs"
 import { Home } from "../src/components/pages/Home"
-
+// import "../src/styles/App.css"
 function App() {
   return (
     <>
