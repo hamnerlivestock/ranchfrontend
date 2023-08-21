@@ -1,0 +1,13 @@
+.hero-container {
+width: 100%;
+overflow: hidden;
+background-color: red;
+position: relative;
+
+}  
+video {
+   /* object-fit: cover; */
+    overflow:hidden;
+    /* height: auto; */
+   /* width: 100%; */
+}

@@ -9,16 +9,16 @@ function Cards() {
           <h1>About the Hamners.</h1>
           <h2>
             Hamner Livestock got started in 1988 with a 'Platts' Columbia ewe lamb and a 'Platts' Columbia ram lamb. From that time
-            on, the Hamner's added other breeders ewes and arams but coninually strived to keep the traditional 'Platts" Columbia look. They have
+            on, the Hamner's added other breeders ewes and rams but continually strived to keep the traditional 'Platts" Columbia look. They have
             purchased replacement stock from Woolstenhulme, Dalbow, A&K, Broken Dollar, Rice, Pitts, Frey, along with many others who have passed the Hamner's expectations.
-            
+            <br></br><br></br>
             Over the years, the Hamner children, Alan and Tanya, have shown the sheep at the Uinta County Fair and Wyoming State Fair and had much success. Additionally, the family has exhibited sheep at the National
             Columbia Show and Sale, National Western Stock Show, Utah State Fair, and Eastern Idaho State Fair.
-            
+            <br></br><br></br>
             In 2015, the Hamners purchased a Natural Colored ram and added a new dimension to their wool production. They now
             sell white wool along with natural colored fleeces to handspinners. They have exhibited animals and fleeces at the National Western Stock Show and Estes Wool Festival and had great success.
             They have shipped fleeces to over 30 states including Canada.
-            
+            <br></br><br></br>
             The original flock was raised in Lyman Wyoming and in 2009 the Hamners moved the flock to Pinedale Wyoming, where it currently still resides.{" "}
           </h2>
         </div>

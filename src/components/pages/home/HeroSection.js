@@ -2,13 +2,13 @@ import React from "react";
 
 import { Button } from "../../../utilities/Button.js";
 import "../../../styles/utilities/HomeCards.css";
+import "../../../styles/Hero.css";
 import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/hamnerclip2.mp4" autoPlay loop muted />
-      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
+      <video src="/videos/hamnerclip2.mp4" width="100%" autoPlay loop muted />
       <h1>HAMNER LIVESTOCK RANCH</h1>
       <p>Serving Quality Meat to Resturaunts and Individuals</p>
       <p>Raising Columbia Breeding Sheep and Natural Colored Columbia's.</p>
