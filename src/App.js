@@ -1,11 +1,11 @@
 
-import {Route, BrowserRouter, Switch} from 'react-router-dom';;
+import {Route, BrowserRouter, Switch} from 'react-router-dom';
 // import { Redirect } from 'react-router';
 
 // import Navbar from "./components/navigation/Navbar";
-import { AboutUs} from "./components/pages/about/AboutUs"
-import { Home } from "../src/components/pages/Home"
-import Navbar from './components/navigation/Navbar'
+import { AboutUs} from "./components/pages/about/AboutUs";
+import { Home } from "./components/pages/Home";
+import Navbar from './components/navigation/Navbar';
 // import { Switch } from 'react-router-dom/cjs/react-router-dom.min'
 // import "../src/styles/App.css"
 function App() {
@@ -30,31 +30,31 @@ function App() {
       
     </div>
   );
-import {Route, Routes, Link} from 'react-router-dom';
-// import Navbar from "./components/navigation/Navbar";
-import { AboutUs} from "./components/pages/about/AboutUs";
-import { Home } from './components/pages/Home';
-// import "../src/styles/App.css"
-function App() {
-  return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About Us</Link>
-          </li>
-        </ul>
-      </nav>
+// import {Route, Routes, Link} from 'react-router-dom';
+// // import Navbar from "./components/navigation/Navbar";
+// import { AboutUs} from "./components/pages/about/AboutUs";
+// import { Home } from './components/pages/Home';
+// // import "../src/styles/App.css"
+// function App() {
+//   return (
+//     <>
+//       <nav>
+//         <ul>
+//           <li>
+//             <Link to="/">Home</Link>
+//           </li>
+//           <li>
+//             <Link to="/about">About Us</Link>
+//           </li>
+//         </ul>
+//       </nav>
    
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/about" element={<AboutUs />} />
       
-      </Routes>
-    </>
-  )
+//       </Routes>
+//     </>
+//   )
 }
 export default App;
