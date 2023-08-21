@@ -22,8 +22,9 @@ export default function Navbar() {
               <Link
               to="/meat"
               className="nav-links"
-              >Meat
+              >Purchase Our Meat
               </Link>
+              
           </div>
         
       </div>

@@ -1,6 +1,6 @@
 
 import {Route, BrowserRouter, Switch} from 'react-router-dom';
-// import { Redirect } from 'react-router';
+import { Redirect } from 'react-router';
 
 // import Navbar from "./components/navigation/Navbar";
 import { AboutUs} from "./components/pages/about/AboutUs";
@@ -15,9 +15,12 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
           <Route path="/home" component={Home} />
           <Route path="/about_us" component={AboutUs} />
-          {/* <Redirect exact from="/home" /> */}
+          <Redirect exact from="/" to="/home" />
         </Switch>
       </BrowserRouter>
        
