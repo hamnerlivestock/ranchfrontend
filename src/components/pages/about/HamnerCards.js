@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/utilities/HamnerCards.css";
+import "../../../styles/utilities/HamnerCards.scss";
 import CardItem from "../../../utilities/cards/CardItem";
 
 function Cards() {
