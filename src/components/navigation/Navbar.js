@@ -134,7 +134,7 @@ function Navbar(props) {
               <i className={click ? "fas fa-times" : "fas fa-bars"} />
             </div> */}
 
-            <li className="nav-item">
+            {/* <li className="nav-item"> */}
               <Link
                 to="/about_us"
                 className="nav-links"
@@ -142,8 +142,8 @@ function Navbar(props) {
               >
                 About Us
               </Link>
-            </li>
-            <li className="nav-item">
+            {/* </li> */}
+            {/* <li className="nav-item"> */}
               <Link
                 to="/meatinfo"
                 className="nav-links"
@@ -151,13 +151,13 @@ function Navbar(props) {
               >
                 Meat
               </Link>
-            </li>
-            <li className="nav-item">
+            {/* </li> */}
+            {/* <li className="nav-item"> */}
               <Link to="/wool" className="nav-links" >
            
                 Wool
               </Link>
-            </li>
+            {/* </li> */}
             {/* <li className="nav-item">
               <Link
                 // to="/about_us"

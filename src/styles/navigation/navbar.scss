@@ -51,7 +51,8 @@
     display: flex;
     // justify-content: center;
     // align-items: center;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
+    
     position: sticky;
     top: 0;
     z-index: 999;
@@ -86,12 +87,13 @@
     display: grid;
     // The grid-template-columns: repeat(9, auto); the 9 adds how many links are seen on the navbar
     grid-template-columns: repeat(9, auto);
-    grid-gap: 10px;
+    grid-gap: 15px;
     list-style: none;
     text-align: center;
     width: 75vw;
     justify-content: end;
-    margin-right: 1rem;
+    margin-right: 2rem;
+    text-decoration: none;
     // font-size: 10px;
   }
   
